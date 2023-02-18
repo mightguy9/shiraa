@@ -1,0 +1,55 @@
+*{
+    padding: ;
+    margin: 0;
+
+}
+
+
+.uchiha{
+    width: 100%;
+    height: 100%;
+    background-image: url(rf.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    padding-left: 20;
+    padding-top: 35;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 30px 100px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:blue ;
+    transition: 1;
+    
+}
+
+button{
+    margin-left: 500px;
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    background: red;
+    color: white;
+    font-size:15px;
+    font-weight: bold;
+}
+button:hover{
+    transform: scale(1.2);
+}
